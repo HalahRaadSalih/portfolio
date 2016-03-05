@@ -1,9 +1,13 @@
 .dashboard{
-  height: 1000px;
-  background: url("https://images.unsplash.com/photo-1441109296207-fd911f7cd5e5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a59abf5bf43f4f8a404a3c8f0dd810fd");
+  height: 1500px;
+  background: url("https://images.unsplash.com/photo-1428223501723-d821c5d00ca3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e5bd1e83a3aa65c5853fd3a7951d0816");
   background-size: cover;
 }
 
 img{
   vertical-align: middle;
+}
+
+.brand > p, #menu > li > a{
+  color: white;
 }
