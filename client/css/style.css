@@ -11,3 +11,17 @@ img{
 .brand > p, #menu > li > a{
   color: white;
 }
+
+.red{
+  background: #A30D3E;
+}
+.green{
+  background: #6A8F56;
+}
+.blue{
+  background: #9BADCF;
+}
+.col-md-4{
+  width: 30%;
+  margin: 1%;
+}
