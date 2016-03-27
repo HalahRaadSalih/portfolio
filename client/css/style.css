@@ -14,12 +14,18 @@ img{
 
 .red{
   background: #A30D3E;
+  opacity: 0.7;
+  color: white;
 }
 .green{
   background: #6A8F56;
+  opacity: 0.7;
+  color: white;
 }
 .blue{
   background: #9BADCF;
+  opacity: 0.7;
+  color: white;
 }
 .col-md-4{
   width: 30%;
