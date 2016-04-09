@@ -2,14 +2,10 @@
   height: 50px;
   position: absolute;
 }
-
-.background{
-  height: 500px;
-  background: url("/client/assets/teaching.jpg");
-  /*background-size: cover;*/
-}
-
-
+ body{
+   background: #1E1E1E;
+   color: #dddddd;
+ }
 .brand > p, #menu > li > a{
   color: white;
 }
@@ -39,7 +35,14 @@
   z-index: 10px;
 }
 .project.img{
-  border-radius: 50%;
+  border-radius: 5%;
   height: 200px;
   width: 200px
+}
+a{
+  color:#19464C;
+}
+
+img:hover{
+  opacity: 0.8;
 }

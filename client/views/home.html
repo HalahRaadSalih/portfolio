@@ -1,23 +1,26 @@
 
 <div class="container information">
-  <div class="row" ng-repeat="project in projects">
+  <div class="row" >
     <br>
     <br>
     <div class="col-md-12">
       <div class="col-md-3">
-        <a href="{{project.link}}">
-          <img class="project img"src="{{project.img}}" alt="" />
-        </a>
-
+        
       </div>
       <div class="col-md-9">
-        <a href="{{project.link}}">
-          <h3>{{project.name}}</h3>
-        </a>
-        <br>
-        <p>
-          {{project.description}}
-        </p>
+        <div class="col-md-4" ng-repeat="project in projects">
+          <a href="{{project.link}}">
+            <img class="project img"src="{{project.img}}" alt="" />
+          </a>
+          <a href="{{project.link}}">
+            <h3>{{project.name}}</h3>
+          </a>
+          <br>
+          <p>
+            {{project.description}}
+          </p>
+        </div>
+
       </div>
     </div>
   </div>
