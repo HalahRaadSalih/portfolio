@@ -1,12 +1,14 @@
 .dashboard{
-  height: 100%;
-  background: url("https://images.unsplash.com/photo-1428223501723-d821c5d00ca3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e5bd1e83a3aa65c5853fd3a7951d0816");
-  background-size: cover;
+  height: 50px;
+  position: absolute;
 }
 
-img{
-  vertical-align: middle;
+.background{
+  height: 500px;
+  background: url("/client/assets/teaching.jpg");
+  /*background-size: cover;*/
 }
+
 
 .brand > p, #menu > li > a{
   color: white;
@@ -30,4 +32,14 @@ img{
 .col-md-4{
   width: 30%;
   margin: 1%;
+}
+.information{
+  position: relative;
+  top: 50px;
+  z-index: 10px;
+}
+.project.img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px
 }

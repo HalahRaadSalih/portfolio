@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="hellaHalah" ng-cloak>
   <head>
     <meta charset="utf-8">
     <title>Halah Al-Shaikhly</title>
-    <!--  bootsrap, jQuery, d3.js here -->
+    <!-- AngularJS source -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-animate.js"></script>
+    <!--  bootsrap, jQuery here -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.1.2/ui-bootstrap-tpls.js"></script>
+
     <link rel="stylesheet" href="/client/css/style.css">
   </head>
   <body>
@@ -25,59 +32,14 @@
             <li><a href="/#/blog">Blog</a></li>
         </ul>
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-
-            <div class="col-md-4 red img-rounded">
-              <br>
-              <div class="col-md-12">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 green img-rounded">
-              <br>
-              <div class="col-md-12">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 red img-rounded">
-              <br>
-              <div class="col-md-12">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                </p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
   </nav>
+  <div ng-view>
 
+  </div>
+  <script src="/client/app.js"></script>
+  <script src="/client/js/controllers.js"></script>
+  <script src="/client/js/services.js"></script>
   </body>
+
 </html>
