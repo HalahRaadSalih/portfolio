@@ -5,12 +5,29 @@
     <br>
     <div class="col-md-12">
       <div class="col-md-3">
-        
+        <img src="/client/assets/space.jpg" alt=""/>
+        <br>
+        <br>
+        <br>
+        <ul>
+          <li><i class="fa fa-github fa-2x"></i></li>
+          <li><i class="fa fa-twitter fa-2x"></i></li>
+          <li><i class="fa fa-linkedin fa-2x"></i></li>
+          <li><i class="fa fa-medium fa-2x" aria-hidden="true"></i></li>
+          <li><i class="fa fa-file fa-2x"></i></li>
+
+          <li></li>
+          <br>
+          <li><span>Work</span></li>
+          <li><span>Education</span></li>
+        </ul>
+
+
       </div>
       <div class="col-md-9">
         <div class="col-md-4" ng-repeat="project in projects">
           <a href="{{project.link}}">
-            <img class="project img"src="{{project.img}}" alt="" />
+            <img class="project img" ng-src="{{project.img}}" alt="" />
           </a>
           <a href="{{project.link}}">
             <h3>{{project.name}}</h3>

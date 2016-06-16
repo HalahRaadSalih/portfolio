@@ -34,7 +34,7 @@
   top: 50px;
   z-index: 10px;
 }
-.project.img{
+.project.img, img{
   border-radius: 5%;
   height: 200px;
   width: 200px
@@ -45,4 +45,8 @@ a{
 
 img:hover{
   opacity: 0.8;
+}
+ul{
+  list-style-type: none;
+  padding-left: 0px;
 }
